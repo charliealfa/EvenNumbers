@@ -1,2 +1,5 @@
 /.vscode
 /lib
+/bin
+/.idea
+*.iml
