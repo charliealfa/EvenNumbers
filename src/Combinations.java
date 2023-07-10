@@ -15,9 +15,9 @@ public class Combinations {
 
     public static int factorial(int x) {
         int result = 1;
-        while(x>0){
-            result*=x;
-            x--;
+
+        for (int i = 1; i <=x; i++) {
+            result*=i;
         }
         return result;
     }
